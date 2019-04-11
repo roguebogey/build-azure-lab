@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "value": "australiasoutheast"
+            "value": "eastus"
         },
         "vnetname": {
-            "value": "Core-AuSE-vnet"
+            "value": "rogue-eastus-vnet-1"
         },
         "vnettags": {
             "value": "Core"
@@ -15,49 +15,49 @@
             "value": "10.0.0.0/16"
         },
         "subnet1Name": {
-            "value": "jumpBox_subnet"
+            "value": "rogue-eastus-jump-subnet-1"
         },
         "subnet1AddressPrefix": {
-            "value": "10.0.0.0/29"
+            "value": "10.0.0.0/24"
         },
         "networkSecurityGroupName1": {
-            "value": "jumpBox_subnet_nsg"
+            "value": "rogue-eastus-jump-nsg-1"
         },
-        "subnet2Name": {
-            "value": "authn_subnet"
-        },
+      "subnet2Name": {
+        "value": "rogue-eastus-authn-subnet-2"
+      },
         "subnet2AddressPrefix": {
             "value": "10.0.1.0/24"
         },
         "networkSecurityGroupName2": {
-            "value": "authn_subnet_nsg"
+            "value": "rogue-eastus-authn-nsg-2"
         },
-        "subnet3Name": {
-            "value": "citrixddc_subnet"
-        },
+      "subnet3Name": {
+        "value": "rogue-eastus-prod-subnet-3"
+      },
         "subnet3AddressPrefix": {
             "value": "10.0.2.0/24"
         },
-        "networkSecurityGroupName3": {
-            "value": "citrixddc_subnet_nsg"
-        },
-        "subnet4Name": {
-            "value": "citrixvda_subnet"
-        },
+      "networkSecurityGroupName3": {
+        "value": "rogue-eastus-prod-nsg-3"
+      },
+      "subnet4Name": {
+        "value": "rogue-eastus-dev-subnet-4"
+      },
         "subnet4AddressPrefix": {
             "value": "10.0.3.0/24"
         },
-        "networkSecurityGroupName4": {
-            "value": "citrixvda_subnet_nsg"
-        },
-        "subnet5Name": {
-            "value": "gateway_subnet"
-        },
+      "networkSecurityGroupName4": {
+        "value": "rogue-eastus-dev-nsg-4"
+      },
+      "subnet5Name": {
+        "value": "rogue-eastus-vdi-subnet-5"
+      },
         "subnet5AddressPrefix": {
-            "value": "10.0.10.0/29"
+            "value": "10.0.10.0/24"
         },
         "networkSecurityGroupName5": {
-            "value": "gateway_subnet_nsg"
+            "value": "rogue-eastus-vdi-nsg-5"
         }
     }
 }
